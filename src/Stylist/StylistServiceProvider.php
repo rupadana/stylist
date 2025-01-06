@@ -32,6 +32,7 @@ class StylistServiceProvider extends AggregateServiceProvider
         $this->registerAliases();
         $this->registerThemeBuilder();
         $this->registerCommands();
+        $this->bootThemes();
     }
 
     /**
